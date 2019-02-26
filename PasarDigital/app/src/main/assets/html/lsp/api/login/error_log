@@ -1,0 +1,6 @@
+[10-Oct-2018 06:41:02 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'sogionli_root'@'localhost' (using password: YES) in /home/sogionline/public_html/api/class/init.php on line 10
+[10-Oct-2018 06:41:02 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/sogionline/public_html/api/login/login.php on line 35
+[10-Oct-2018 06:41:02 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sogionline/public_html/api/login/login.php on line 38
+[10-Oct-2018 06:41:44 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'sogionli_root'@'localhost' (using password: YES) in /home/sogionline/public_html/api/class/init.php on line 10
+[10-Oct-2018 06:41:44 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, boolean given in /home/sogionline/public_html/api/login/login.php on line 35
+[10-Oct-2018 06:41:44 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/sogionline/public_html/api/login/login.php on line 38

@@ -1,0 +1,15 @@
+[08-May-2018 19:47:06 UTC] PHP Warning:  require_once(class.db.php): failed to open stream: No such file or directory in /home/semutsofttruck/public_html/mail2/db/example.php on line 8
+[08-May-2018 19:47:06 UTC] PHP Fatal error:  require_once(): Failed opening required 'class.db.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/semutsofttruck/public_html/mail2/db/example.php on line 8
+[08-May-2018 19:48:29 UTC] PHP Warning:  require_once(class.db.php): failed to open stream: No such file or directory in /home/semutsofttruck/public_html/mail2/db/example.php on line 8
+[08-May-2018 19:48:29 UTC] PHP Fatal error:  require_once(): Failed opening required 'class.db.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/semutsofttruck/public_html/mail2/db/example.php on line 8
+[08-May-2018 19:48:30 UTC] PHP Warning:  require_once(class.db.php): failed to open stream: No such file or directory in /home/semutsofttruck/public_html/mail2/db/example.php on line 8
+[08-May-2018 19:48:30 UTC] PHP Fatal error:  require_once(): Failed opening required 'class.db.php' (include_path='.:/opt/cpanel/ea-php70/root/usr/share/pear') in /home/semutsofttruck/public_html/mail2/db/example.php on line 8
+[08-May-2018 19:48:47 UTC] PHP Fatal error:  Uncaught Error: Class 'DB' not found in /home/semutsofttruck/public_html/mail2/db/example.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/semutsofttruck/public_html/mail2/db/example.php on line 10
+[08-May-2018 19:49:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_internal_encoding() in /home/semutsofttruck/public_html/mail2/db/db.php:91
+Stack trace:
+#0 /home/semutsofttruck/public_html/mail2/db/example.php(10): DB->__construct()
+#1 {main}
+  thrown in /home/semutsofttruck/public_html/mail2/db/db.php on line 91

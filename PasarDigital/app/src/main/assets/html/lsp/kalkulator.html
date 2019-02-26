@@ -1,0 +1,531 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+License: Creative Commons Attribution 3.0 Unported
+License URL: http://creativecommons.org/licenses/by/3.0/
+-->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Pasar Digital</title> 
+<!-- For-Mobile-Apps-and-Meta-Tags -->
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="Matchmaking Responsive, Login Form Web Template, Flat Pricing Tables, Flat Drop-Downs, Sign-Up Web Templates, Flat Web Templates, Login Sign-up Responsive Web Template, SmartPhone Compatible Web Template, Free Web Designs for Nokia, Samsung, LG, Sony Ericsson, Motorola Web Design" />
+<script type="application/x-javascript"> addEventListener("load", function() { setTimeout(hideURLbar, 0); }, false); function hideURLbar(){ window.scrollTo(0,1); } </script>
+<!-- //For-Mobile-Apps-and-Meta-Tags -->
+<!-- Custom Theme files -->
+<link href="css/bootstrap.css" type="text/css" rel="stylesheet" media="all">
+<link href="css/style.css" type="text/css" rel="stylesheet" media="all"> 
+<link rel='stylesheet' id='fluid_dg-css'  href='css/fluid_dg.css' type='text/css' media='all'>
+<link href="css/popuo-box.css" rel="stylesheet" type="text/css" media="all" />
+<!-- //Custom Theme files -->
+<!-- font-awesome icons -->
+<link href="css/font-awesome.css" rel="stylesheet" type="text/css" media="all" /> 
+<!-- //font-awesome icons -->
+
+    <script src="jquery-1.12.4.min.js"></script>
+<!-- //js -->
+<!-- web-fonts -->  
+<link href='//fonts.googleapis.com/css?family=Courgette' rel='stylesheet' type='text/css'>
+<link href='//fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+<!-- //web-fonts -->
+<script type="text/javascript">
+	jQuery(document).ready(function($) {
+		$(".scroll").click(function(event){		
+			event.preventDefault();
+			$('html,body').animate({scrollTop:$(this.hash).offset().top},1000);
+		});
+	});
+</script>
+	<style>
+		.hitam {
+		  text-color: black;
+		}
+	</style>
+</head>
+<body class="bg">
+<!-- menu -->
+	<button class="btn-nav w3layouts_btn">
+		<span class="bar arrow-top-r"></span>
+		<span class="bar arrow-middle-r"></span>
+		<span class="bar arrow-bottom-r"></span>
+	</button>
+	<nav class="nav-container hidden hideNav w3_nav">
+	  <ul class="nav-list">
+		<li class="list-item active"><a href="index.html"><i class="glyphicon glyphicon-home" aria-hidden="true"></i></a></li>
+		<!--
+		<li class="list-item"><a href="profil.html"><i class="glyphicon glyphicon-info-sign" aria-hidden="true"></i></a></li>
+		<li class="list-item"><a href="bantuan.html"><i class="glyphicon glyphicon-cog" aria-hidden="true"></i></a></li>
+		<li class="list-item"><a href="database.html"><i class="glyphicon glyphicon-text-size" aria-hidden="true"></i></a></li>
+	  !-->
+	  </ul>
+	</nav>
+	<div id="ban" class="agileinfo_menu w3l_menu">
+		<div class="agileinfo_menu_left">
+			<h1><a href="main.html">Ayo Pasar<span>Pelapak <i>Sejahtera</i></span></a></h1>
+		</div>
+		<div class="agileinfo_menu_right">
+			<ul>
+				<li><a href="#" onclick="goto_lsp()" class="play-icon popup-with-zoom-anim">Login</a></li>
+				<li><a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Daftar</a></li>
+			</ul>
+			<div class="agileinfo_menu_right_pos">
+				<p>Or</p>
+			</div>
+		</div>
+		<div class="clearfix"> </div>
+	</div>
+<!-- //menu -->
+<!-- pop-up-box -->
+	<div id="small-dialog" class="mfp-hide w3ls_small_dialog" style="display:none;">
+		<h2>Sign In</h2>		
+		<div class="modal-body agileits_modal_body">
+			 <form action="#" method="post">
+				<span>
+					<i class="glyphicon glyphicon-envelope" aria-hidden="true"></i>
+					<input type="email" name="Email" placeholder="Email" required=""/>
+				</span>
+				<span class="w3_modal">
+					<i class="glyphicon glyphicon-lock" aria-hidden="true"></i>
+					<input type="text" name="Password" placeholder="Password" required=""/>
+				</span>
+				<div class="agile_remember">
+					<div class="agile_remember_left">
+						<div class="check">
+							<label class="checkbox"><input type="checkbox" name="checkbox"><i> </i>remember me</label>
+						</div>
+					</div>
+					<div class="agile_remember_right">
+						<a href="#">Forgot Password?</a>
+					</div>
+					<div class="clearfix"> </div>
+				</div>
+				<input type="submit" value="Sign In">
+			</form>
+			<h4>Continue With</h4>
+			<div class="social_icons agileinfo_social_asd">
+				<!-- Facebook -->
+				<a href="#" class="slide-social wthree_slide_social">
+					<div class="button">5 Likes</div>
+					<div class="facebook icon"> <i class="fa fa-facebook" aria-hidden="true"></i> </div>
+					<div class="facebook slide">
+						<p>Facebook</p>
+					</div>
+				</a>
+				<!-- Twitter -->
+				<a href="#" class="slide-social wthree_slide_social">
+					<div class="button">8 Tweets</div>
+					<div class="twitter icon"> <i class="fa fa-twitter" aria-hidden="true"></i> </div>
+					<div class="twitter slide">
+						<p>Twitter</p>
+					</div>
+				</a>
+			</div>
+			<h5>Don't have an account? <a href="#small-dialog1" class="play-icon popup-with-zoom-anim">Sign Up</a></h5>
+		</div>
+	</div>
+	<div id="small-dialog1" class="mfp-hide">
+		<h2>Pendaftaran</h2>		
+		<div class="modal-body w3_agileits_modal_body">
+			<form action="#" method="post" onsubmit="return false;" id="formregister">
+				<div class="w3_modal_body_grid">
+					<span>Jenis Lapak</span>
+					<select id="w3_country" class="jenis_lapak" onchange="change_country(this.value)" class="frm-field required">
+
+					</select>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Nama</span>
+					<input type="text" name="Name" class="nama_anggota" placeholder=" " required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Nama Bank</span>
+					<input type="text" name="Name" class="nama_bank" placeholder=" " required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Norek Bank</span>
+					<input type="text" name="Name" placeholder=" " class="norek" required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>NPWP</span>
+					<input type="text" name="Name" placeholder=" " class="npwp" required=""/>
+				</div>
+
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>NIK</span>
+					<input type="text" name="Name" class="nik" placeholder=" " required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Nama Pasar</span>
+					<input type="text" name="Name" class="namapasar" placeholder=" " required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Nama Lapak</span>
+					<input type="text" name="Name" class="namalapak" placeholder=" " required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Alamat</span>
+					<input type="text" name="Name" class="alamat" placeholder=" " required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>HP</span>
+					<input type="text" name="Name" class="hp" placeholder=" " required=""/>
+				</div>
+				<div class="w3_modal_body_grid">
+					<span>Email</span>
+					<input type="email" name="Email" placeholder=" " class="email" required=""/>
+				</div>
+				<div class="w3_modal_body_grid w3_modal_body_grid1">
+					<span>Password</span>
+					<input type="password" name="Password" class="password" placeholder=" " required=""/>
+				</div>
+				<input id="goto_register" type="submit" class="submit" value="Sign Up">
+			</form>
+			<!-- Calendar
+				<link rel="stylesheet" href="css/jquery-ui.css" />
+				<script src="js/jquery-ui.js"></script>
+				  <script>
+						  $(function() {
+							$( "#datepicker" ).datepicker();
+						  });
+				  </script>
+			//Calendar -->
+			<h4></h4>
+			<div class="social_icons agileits_w3layouts_cons" style="display:none;">
+				<!-- Facebook -->
+				<a href="#" class="slide-social">
+					<div class="button">5 Likes</div>
+					<div class="facebook icon agile_facebook"> <i class="fa fa-facebook" aria-hidden="true"></i> </div>
+					<div class="facebook slide">
+						<p>Facebook</p>
+					</div>
+				</a>
+				<!-- Twitter -->
+				<a href="#" class="slide-social">
+					<div class="button">8 Tweets</div>
+					<div class="twitter icon w3_agile_twitter"> <i class="fa fa-twitter" aria-hidden="true"></i> </div>
+					<div class="twitter slide">
+						<p>Twitter</p>
+					</div>
+				</a>
+			</div>
+
+		</div>
+	</div>
+				<script src="js/jquery.magnific-popup.js" type="text/javascript"></script>
+				<script>
+					$(document).ready(function() {
+					$('.popup-with-zoom-anim').magnificPopup({
+						type: 'inline',
+						fixedContentPos: false,
+						fixedBgPos: true,
+						overflowY: 'auto',
+						closeBtnInside: true,
+						preloader: false,
+						midClick: true,
+						removalDelay: 300,
+						mainClass: 'my-mfp-zoom-in'
+					});
+																					
+					});
+				</script>
+<!--//pop-up-box -->
+<!-- banner -->
+	<div class="banner">
+		<div class="fluid_dg_wrap fluid_dg_emboss pattern_1 fluid_dg_white_skin" id="fluid_dg_wrap_4">
+			<div data-thumb="images/1-.jpg" data-src="images/1.jpg"></div>
+			<div data-thumb="images/2-.jpg" data-src="images/2.jpg"></div>
+			<div data-thumb="images/3-.jpg" data-src="images/3.jpg"></div>
+			<div data-thumb="images/4-.jpg" data-src="images/4.jpg"></div>
+		</div>
+	</div>
+<!-- //banner -->
+<!-- banner-bottom-login -->
+	<div class="banner-bottom-login">
+		<div class="w3agile_banner_btom_login">
+			<form action="#" method="post">
+				<div class="w3agile__text w3agile_banner_btom_login_left">
+					<h4>Cari Pinjaman.. </h4>
+					<select id="country" name="jumlahpinjaman"  onchange="change_country(this.value)" class="frm-field required jumlah">
+						<option value="10">10 JT</option>
+						<option value="25">25 JT</option>   
+						<option value="50">50 JT</option>   
+					</select>
+				</div>
+				<div class="w3agile__text w3agile_banner_btom_login_left1">
+					<h4>Cicilan</h4>
+					<select id="country1" name="lamapinjaman" onchange="change_country(this.value)" class="frm-field required masa">
+						<option value="3">- 3 Bulan -</option>
+						<option value="6">- 6 Bulan -</option>
+						<option value="12">- 1 Tahun -</option>
+					</select>
+				</div>
+				<div class="w3agile__text w3agile_banner_btom_login_left2">
+					<h4>Jenis Kreditur</h4>
+					<select id="country3" name="jeniskreditur" onchange="change_country(this.value)" class="frm-field required sending2">
+						<option value="Kecil">Kecil</option>  
+						<option value="Menengah">Menengah</option>   
+						<option value="Besar">Besar</option>   					
+					</select>
+				</div>
+				<div class="w3agile_banner_btom_login_left3">
+					<a href="javascript:void(0)" id="caripinjaman2">Search</a>
+				</div>
+				<div class="clearfix"> </div>
+			</form>
+		</div>
+	</div>
+<!-- //banner-bottom-login -->
+<!-- banner-bottom -->  
+
+<!-- //banner-bottom -->  
+<!-- banner-bottom1 -->
+
+<!-- //banner-bottom1 -->
+<!-- footer-top -->
+
+<!-- //footer-top -->
+<!-- footer -->
+
+	<div class="footer">
+
+
+
+
+
+
+
+		<div class="footer-copy">
+			<div class="w3agile_footer_grids">
+				<div class="w3agile_footer_grid">
+					<span id="kalk">Simulasi Kalkulator Pinjaman</span>
+
+					<div class="table-responsive">
+						<div align="left" id="datatable"  class="table table-bordered table-striped table-hover table-heading">
+
+							<table id="tabeldataku" class="table table-striped texttable shiftTrRow" >
+							<tr>
+								<td>No.</td>
+								<td>Jatuh Tempo</td>
+								<td>Pembayaran</td>
+								</tr>
+							</table>
+
+						</div>
+					</div>
+
+					<h3>Tentang Kami</h3>
+
+
+
+
+					<p class="hitam"><font color="black"> AyoPasar adalah Sistem Informasi yang berbasis android. Pelapak bisa mengirim foto lapak dengan sekali klik, maka barang dagangan akan masuk ke server. <br> Dapat mengajukan data dan pinjaman Dana.</font></span></p>
+				</div>
+				<div class="w3agile_footer_grid">
+					<h3>Contact Info</h3>
+					<ul>
+						<li><i class="glyphicon glyphicon-map-marker" aria-hidden="true"></i>Jl. Kayu Putih Raya no 23 – 25 JakTim <span>DKI Jakarta.</span></li>
+						<li><i class="glyphicon glyphicon-envelope" aria-hidden="true"></i><a href="mailto:agungmartono@gmail.com">agungmartono@gmail.com</a></li>
+						<li><i class="glyphicon glyphicon-earphone" aria-hidden="true"></i>021-29575024 </li>
+					</ul>
+				</div>
+				<div class="clearfix"> </div>
+			</div>
+		</div>
+		<div class="copy-right-social">
+			<div class="footer-pos">
+				<a href="#ban" class="scroll"><span></span></a>
+			</div>
+			<div class="copy-right">
+				<p>&copy;2019 AyoPasar</p>
+			</div>
+			<div class="copy-right-social1" style="display:none;">
+				<ul class="wthree_social_icons1">
+					<li><a href="#" class="icon1 w3_facebook"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+					<li><a href="#" class="icon1 w3_twitter"><i class="fa fa-twitter" aria-hidden="true"></i></a></li>
+					<li><a href="#" class="icon1 w3_instagram"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+					<li><a href="#" class="icon1 w3_g_plus"><i class="fa fa-google-plus" aria-hidden="true"></i></a></li>
+				</ul>
+			</div>
+			<div class="clearfix"> </div>
+		</div>
+	</div>
+<!-- //footer -->
+<!-- banner -->
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script> 
+<script type='text/javascript' src='js/fluid_dg.min.js'></script>
+<!-- //banner -->
+<!-- nav -->
+<script type="text/javascript">
+jQuery(document).ready(function(){
+	jQuery(function(){
+		jQuery('#fluid_dg_wrap_4').fluid_dg({height: 'auto', loader: 'bar', pagination: false, thumbnails: true, hover: false, opacityOnGrid: false, imagePath: ''});
+	}); })
+
+var table = "";
+var tablek = "";
+var tableA = "";
+
+function isEmail(email) {
+  var regex = /^([a-zA-Z0-9_.+-])+\@(([a-zA-Z0-9-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+  return regex.test(email);
+}
+
+
+ $(window).load(function() {
+   $(".btn-nav").on("click tap", function() {
+     $(".nav-container").toggleClass("showNav hideNav").removeClass("hidden");
+     $(this).toggleClass("animated");
+   });
+ });
+
+var setTabel = function(id, jenis_lapak) {
+        table += ' <option value="'+id+'">'+jenis_lapak+'</option>';
+
+    };
+
+
+var table21 = "";
+
+var no = 1;
+ var setTabel2 = function(tanggal, cicilan) {
+		table21 = "";
+		if (document.getElementsByClassName('datasementara'))
+		{
+			deleteRow = document.getElementsByClassName('datasementara')[0];
+
+			if(deleteRow.parentNode)
+				deleteRow.parentNode.removeChild(deleteRow);
+		}
+        table21 = '<tr class="datasementara" id="tr_'+no+'">'+
+                        '<td>'+no+'</td>'+
+                        '<td><font color="red">'+tanggal+'</font></td>'+
+                        '<td>'+cicilan+'</td>'+
+                    '</tr>';
+        			no++;
+		$('#tabeldataku').append(table21);
+
+    };
+
+    var showTabel2 = function() {
+       // $('#tabeldataku').append(table21);
+
+		table21 = "";
+    };
+
+var resetx = function () {
+
+
+		table21 = "";
+
+
+};
+
+
+
+ var showTabel = function() {
+ 		$('.jenis_lapak').empty();
+        $('.jenis_lapak').append(table);
+    };
+
+
+    var resetTabelAA = function() {
+        table = "";
+        no = 1;
+        $('#datatable').html(table);
+    };
+
+    var setTabelAA = function(tanggal, cicilan) {
+        table += ' <tr><td style="padding: 10px"><div><span style="color:   #000000; font-size: 12px; margin-left: 10px; font-weight: bold">'+no+'</span></div></td><td style="text-align: center; color: 000000;  #000000; font-size: 12px; font-weight: bold; padding-top: 10px">'+tanggal+'</td><td style="text-align: center; color: #000000; font-size: 12px; font-weight: bold; vertical-align: top; padding-top: 10px">'+cicilan+'</td></tr><tr><td style="padding: 0px" ></td></tr>';
+		no++;
+    };
+
+    var showTabelAA = function() {
+        table = '<table class="table table-striped texttable" ><thead><tr> <th style="text-align: center;">Status</th><th style="text-align: center;">Jatuh Tempo</th><th style="text-align: center;">Pembayaran</th></thead></tr><tbody>'+table+'</tbody></table>';
+        $('#datatable').html(table);
+    };
+
+
+ function goto_lsp(){
+
+ 	try {
+            window.cpjs.goto_login();
+        } catch(err) {
+            console.log(err.message);
+        }
+ }
+
+ $(document).ready(function(){
+        try {
+            window.cpjs.gotoLoadDataJnsLapak();
+        } catch(err) {
+            console.log(err.message);
+        }
+
+
+		$("#caripinjaman2").click(function(){
+
+
+            var jumlah = $('.jumlah').val();
+            var masa = $('.masa').val();
+
+			try {
+				window.cpjs.kalkulator(jumlah, masa);
+            } catch(err) {
+                console.log(err.message);
+            }
+		});
+
+        $('#formregister').submit(function() {
+            var jenis_lapak = $('.jenis_lapak').val();
+            var nama_bank = $('.nama_bank').val();
+            var norek = $('.norek').val();
+            var npwp = $('.npwp').val();
+            var nik = $('.nik').val();
+            var hp = $('.hp').val();
+            var email = $('.email').val();
+            var password = $('.password').val();
+            var namapasar = $('.namapasar').val();
+            var namalapak = $('.namalapak').val();
+            var alamat = $('.alamat').val();
+            var nama_anggota = $('.nama_anggota').val();
+            if(nik==""){
+            	alert("Nik Harus Diisi.");
+            	return false;
+            }
+            if(hp==""){
+            	alert("HP Harus Diisi.");
+            	return false;
+            }
+            if(email==""){
+            	alert("Email Harus Diisi.");
+            	return false;
+            }
+            if(isEmail(email)){
+
+            } else {
+
+            	alert("Email Tidak Valid");
+            	return false;
+
+            }
+            if(nama_anggota==""){
+            	alert("Nama Harus Diisi.");
+            	return false;
+            }
+
+            try {
+                window.cpjs.gotoSaveAsetRegister(jenis_lapak, nama_bank, norek, npwp, nama_anggota, nik, hp, email, password, namapasar, namalapak, alamat);
+            } catch(err) {
+                console.log(err.message);
+            }
+
+        });
+
+    });
+
+</script>
+<!-- //nav -->
+</body>
+</html>

@@ -1,0 +1,1 @@
+server = "http://aset.lpkpd.org/server/";

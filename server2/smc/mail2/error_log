@@ -1,0 +1,38 @@
+[08-May-2018 19:46:55 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_internal_encoding() in /home/semutsofttruck/public_html/mail2/db/db.php:91
+Stack trace:
+#0 /home/semutsofttruck/public_html/mail2/tes_db.php(13): DB->__construct()
+#1 {main}
+  thrown in /home/semutsofttruck/public_html/mail2/db/db.php on line 91
+[08-May-2018 19:49:54 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_internal_encoding() in /home/semutsofttruck/public_html/mail2/db/db.php:91
+Stack trace:
+#0 /home/semutsofttruck/public_html/mail2/tes_db.php(12): DB->__construct()
+#1 {main}
+  thrown in /home/semutsofttruck/public_html/mail2/db/db.php on line 91
+[08-May-2018 19:50:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mb_regex_encoding() in /home/semutsofttruck/public_html/mail2/db/db.php:92
+Stack trace:
+#0 /home/semutsofttruck/public_html/mail2/tes_db.php(12): DB->__construct()
+#1 {main}
+  thrown in /home/semutsofttruck/public_html/mail2/db/db.php on line 92
+[08-May-2018 19:51:08 UTC] PHP Warning:  Invalid argument supplied for foreach() in /home/semutsofttruck/public_html/mail2/tes_db.php on line 19
+[29-Nov-2018 18:39:31 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 18:39:31 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 18:41:31 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 18:41:31 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 18:43:57 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 18:43:57 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 18:44:42 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 18:44:42 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 19:23:37 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[29-Nov-2018 19:23:37 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:35:59 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:35:59 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:41:43 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:41:43 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:41:46 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:41:46 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:42:10 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:42:10 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:45:01 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:45:01 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/kredit/kredit_web/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:48:26 UTC] PHP Warning:  include(ak.php): failed to open stream: No such file or directory in /home/sogionline/public_html/android/server2/smc/mail2/mail_tes.php on line 3
+[07-Feb-2019 11:48:26 UTC] PHP Warning:  include(): Failed opening 'ak.php' for inclusion (include_path='.:/opt/cpanel/ea-php56/root/usr/share/pear') in /home/sogionline/public_html/android/server2/smc/mail2/mail_tes.php on line 3

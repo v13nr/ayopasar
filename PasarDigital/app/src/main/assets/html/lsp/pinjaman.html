@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<div class="container">
+    <h2>Form Peminjaman Dana</h2>
+    <form action="#" method="post" onsubmit="return false;" id="formregister">
+        <div class="form-group">
+            <label for="paket">Paket Pinjaman:</label>
+            <select  class="form-control" id="paket" placeholder="Enter pinjaman" name="paket">
+                <option value="10">10 Juta</option>
+                <option value="25">25 Juta</option>
+                <option value="50">50 Juta</option>
+            </select>
+        </div>
+        <div class="form-group">
+            <label for="paket">Masa Cicilan:</label>
+            <select  class="form-control masa_cicilan" id="cicilan" placeholder="Enter cicilan" name="cicilan">
+                <option>-Pilih-</option>
+            </select>
+        </div>
+        <div class="checkbox">
+            <label><input type="checkbox" name="remember"> Setuju Segala Persyaratan</label>
+        </div>
+        <button type="submit" class="btn btn-default">Submit</button>
+    </form>
+
+<br><br>
+    <div class="table-responsive">
+        <div align="center" class="table table-bordered table-striped table-hover table-heading" style="border-collapse:collapase;">
+            <table id="datatable"  >
+                <tr>
+                    <td align="left" width="10%">No.</td>
+                    <td align="center"  width="30%">Jumlah</td>
+                    <td align="center"  width="20%">Masa</td>
+                    <td align="center"  width="40%">Status</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+</div>
+<script type='text/javascript' src='js/jquery.easing.1.3.js'></script>
+<script type='text/javascript' src='js/fluid_dg.min.js'></script>
+<script>jQuery(document).ready(function(){
+	jQuery(function(){
+		jQuery('#fluid_dg_wrap_4').fluid_dg({height: 'auto', loader: 'bar', pagination: false, thumbnails: true, hover: false, opacityOnGrid: false, imagePath: ''});
+	}); })
+</script>
+<!-- //banner -->
+<!-- nav -->
+<script>
+var table = "";
+var tabledata = "";
+var setTabel = function(id, masa_cicilan) {
+        table += ' <option value="'+id+'">'+masa_cicilan+'</option>';
+
+    };
+no = 1;
+var setTabelData = function(id, jumlah, masa, status) {
+        tabledata += ' <tr  align="center" class="append"><td>'+no+'</td><td align="center">'+jumlah+' JT. </td><td align="center" >'+masa+'</td><td  align="center">'+status+'</td></tr>';
+        no++;
+    };
+
+ var showTabel = function() {
+ 		$('.masa_cicilan').empty();
+        $('.masa_cicilan').append(table);
+    };
+
+ var showTabelData = function() {
+ 		$(".append").empty();
+ 		$(".append").remove();
+        $('#datatable').append(tabledata);
+    };
+
+
+ $(document).ready(function(){
+        try {
+            window.cpjs.gotoLoadDataPaketPinjaman();
+        } catch(err) {
+            console.log(err.message);
+        }
+
+        try {
+
+ 		    $('.append').empty();
+            window.cpjs.gotoLoadDataPinjaman();
+        } catch(err) {
+            console.log(err.message);
+        }
+
+
+        $('#formregister').submit(function() {
+
+            var tabledata = "";
+            $('.append').empty();
+            $('.append').remove();
+            var paket = $('#paket').val();
+            var cicilan = $('#cicilan').val();
+            if(paket==""){
+            	alert("paket Harus Diisi.");
+            	return false;
+            }
+            if(cicilan==""){
+            	alert("cicilan Harus Diisi.");
+            	return false;
+            }
+            try {
+                window.cpjs.gotoSaveAsetPinjam(paket, cicilan);
+
+                try {
+                    $('.append').empty();
+                    $('.append').remove();
+                    window.cpjs.gotoLoadDataPinjaman();
+                } catch(err) {
+                    console.log(err.message);
+                }
+
+            } catch(err) {
+                console.log(err.message);
+            }
+
+        });
+
+
+    });
+</script>
+</body>
+</html>
