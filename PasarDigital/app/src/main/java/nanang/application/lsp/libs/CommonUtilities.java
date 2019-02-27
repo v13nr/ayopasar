@@ -44,7 +44,7 @@ public final class CommonUtilities {
 	public static final String TAG = "IAD";
 
 	//public static final String SERVER_HOME_URL = "http://sogi-online.com/android";
-	public static final String SERVER_HOME_URL = "http://178.128.116.146/android";
+	public static final String SERVER_HOME_URL = "http://10.0.2.2/android";
 
 	/**
 	 * Function to change progress to timer
